@@ -39,6 +39,6 @@ module.exports = defineConfig({
     viewportWidth: 1536,
     viewportHeight: 960,
     retries: { runMode: 1, openMode: 0 },
-    video: false,
+    video: true,
   },
 });
