@@ -1,33 +1,25 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "editor.fontSize": 18,
-    "cucumberautocomplete.customParameters": [
-    ],
-    "cucumberautocomplete.strictGherkinCompletion": true,
-    "cucumberautocomplete.steps": [
-        "cypress/support/step_definitions/**/*.ts",
-        
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "cSpell.words": [
-        "administratorów",
-        "Aktualny",
-        "Kariera",
-        "Kontakt",
-        "LABORATORYJNY",
-        "Oferty",
-        "Pracy",
-        "Programista",
-        "searchform",
-        "Szkolenia",
-        "Szukaj",
-        "Wyniki"
-    ],
-   
-    "cucumberautocomplete.pages": {
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.fontSize": 18,
+  "cucumberautocomplete.customParameters": [],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.steps": ["cypress/support/step_definitions/**/*.ts"],
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.words": [
+    "administratorów",
+    "Aktualny",
+    "Kariera",
+    "Kontakt",
+    "LABORATORYJNY",
+    "Oferty",
+    "Pracy",
+    "Programista",
+    "searchform",
+    "Szkolenia",
+    "Szukaj",
+    "Wyniki"
+  ],
 
-    },
-    "cucumberautocomplete.formatConfOverride": {
-
-    }
+  "cucumberautocomplete.pages": {},
+  "cucumberautocomplete.formatConfOverride": {}
 }

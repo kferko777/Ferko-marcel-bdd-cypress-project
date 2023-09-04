@@ -1,6 +1,6 @@
 @regression
 Feature: marcel - Search Page
-  Background: Background name
+  Background: the user visits Marcel web app
     Given the user visit Marcel app
 
   Scenario Outline: Validate Search results for Learning

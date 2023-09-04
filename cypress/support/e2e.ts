@@ -14,16 +14,13 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-import 'cypress-cucumber-attach-screenshots-to-failed-steps'
+import "./commands";
+import "cypress-cucumber-attach-screenshots-to-failed-steps";
 import "cypress-real-events/support";
-import '@shelex/cypress-allure-plugin';
-import 'cypress-mochawesome-reporter/register'
-//require('cypress-xpath');
+import "@shelex/cypress-allure-plugin";
+import "cypress-mochawesome-reporter/register";
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
-Cypress.on('uncaught:exception', (err, runnable) => {
-	return false
-})
 
+Cypress.on("uncaught:exception", (err, runnable) => {
+  return false;
+});

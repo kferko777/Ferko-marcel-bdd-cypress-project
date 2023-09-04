@@ -1,13 +1,13 @@
-import './commands';
+import "./commands";
 
 /// <reference types='cypress' />
 
 declare global {
-    namespace Cypress {
+  namespace Cypress {
     interface Chainable {
-        clearDownloads(): null;
-        setCurrentCookies(cookies:Cypress.Cookie[]):null;
+      clearDownloads(): null;
+      setCurrentCookies(cookies: Cypress.Cookie[]): null;
     }
-}
+  }
 }
 export {};
