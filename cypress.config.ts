@@ -5,14 +5,14 @@ import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild
 const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 
 module.exports = defineConfig({
-  reporter: 'cypress-mochawesome-reporter',
-    reporterOptions: {
-        charts: true,
-        reportPageTitle: 'custom-title',
-        embeddedScreenshots: true,
-        inlineAssets: true,
-        saveAllAttempts: false,
-    },
+  reporter: "cypress-mochawesome-reporter",
+  reporterOptions: {
+    charts: true,
+    reportPageTitle: "custom-title",
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
+  },
   e2e: {
     specPattern: "**/*.feature",
     async setupNodeEvents(
@@ -20,7 +20,7 @@ module.exports = defineConfig({
       config: Cypress.PluginConfigOptions
     ): Promise<Cypress.PluginConfigOptions> {
       await addCucumberPreprocessorPlugin(on, config);
-      require('cypress-mochawesome-reporter/plugin')(on);
+      require("cypress-mochawesome-reporter/plugin")(on);
       allureWriter(on, config);
       //return config;
 

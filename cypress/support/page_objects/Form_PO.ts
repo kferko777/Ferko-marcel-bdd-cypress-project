@@ -3,7 +3,7 @@ import Base_PO from "./Base_PO";
 
 class Form_PO extends Base_PO {
   navigateTo_Form_Page() {
-    super.navigate('');
+    super.navigate("");
   }
 
   clickOn_DropdownArrow() {
@@ -48,9 +48,7 @@ class Form_PO extends Base_PO {
   }
 
   alertText(expectedAlertText) {
-	cy.get("form > div[role='alert']").trigger('mouseover');
-  } 
-
+    cy.get("form > div[role='alert']").trigger("mouseover");
+  }
 }
 export default Form_PO;
-

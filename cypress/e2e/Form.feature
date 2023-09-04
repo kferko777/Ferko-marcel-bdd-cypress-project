@@ -1,9 +1,8 @@
-@regression  
+@regression
 Feature: marcel - Form Page
-  Background: Background name
+  Background: the user visits Marcel web app
     Given the user visit Marcel app
-    
-    
+
   Scenario Outline:  Validate form results on marcel formpage
     Given the user clicks on Contact Link
     When the user clicks on dropdown arrow down selects first item

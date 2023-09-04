@@ -1,7 +1,7 @@
 @smoke
 Feature: marcel- Company Page
   
-    Scenario:Validate navbar random links 
+    Scenario: Validate navbar random links 
         Given the user visit Marcel app
         When the user clicks on o Firmie Link
         Then the user should see content about company
